@@ -1,0 +1,160 @@
+
+.header{
+    background-color:black;
+    height: 100vh;
+}
+.nav-links a{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+.nav-links h4{
+    color: aqua;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+#demo p{
+    font-size: 12px;
+}
+.post p{
+    
+    font-size: 50px;
+}
+.typewriter h1 {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 5px solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    animation: typing 5.5s steps(50, end), blinking-cursor .5s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color:transparent;
+    }
+    40% {
+      border-color: white;
+    }
+  }  
+  
+  
+  
+  .form {
+    padding-top: 30%;
+    font-size: 10px;
+  }
+  .form a button{
+    background-color:aqua;
+    text-transform: capitalize;
+  }
+  .form a:hover button{
+    background-color: transparent;
+  }
+  .followme i{
+    font-size: 20px;
+  }
+  .followme p{
+    font-size: 25px;
+ }
+.post{
+    background:#154c79;
+    height:100vh;
+    left:6px;
+    right: 0;
+}
+.post p{
+    padding-top: 25%;
+    font-size: 50px;
+} 
+input{
+    outline: none;
+    }
+input:hover{
+    border-color: aqua;
+    box-shadow: 3px aqua;
+    box-shadow: 1px 1px 1px 1px skyblue;
+}
+.address p{
+    font-size: 25px;
+}
+.card:hover{
+    box-shadow: 3px grey;
+}
+.btn-info:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.card a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.card a:hover{
+    color: aqua;
+    font-weight: 500;
+    border-bottom: 5px solid black;
+
+}
+.card  p{
+  font-size: 16px;
+}
+.card h1{
+    font-size: 15px;
+    color: darkblue;
+}
+html{
+    scroll-padding:1rem;
+}
+div{
+  display: block;
+}
+.details{
+  margin-top: 3%;
+height: 27VH;
+}
+p{
+  font-size: 14px;
+}
+h1{
+  font-size: 10px;
+}
+.offbutton{
+  position:fixed;
+  left:3%;
+
+}
+.offcanvas-body{
+  height: 100vh;
+}
+@media screen and (max-width:600px){
+  .header{
+    display: none;  
+  }
+  .offbutton{
+      display: block;
+      
+}}
+@media screen and (max-width:480px){
+  .header{
+    display: none;  
+  }
+  .offbutton{
+      display: block;
+  
+  }
+  
+}
